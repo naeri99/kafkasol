@@ -6,10 +6,10 @@ import org.example.app.kafka.config.factory.primitive.StringSourceFactory;
 import org.example.app.kafka.config.factory.stock.StockSourceFactory;
 import org.example.app.kafka.config.factory.stock.StockTransactionSourceFactory;
 import org.example.app.kafka.config.factory.stock.StockWithCountSourceFactory;
-import com.fastcampus.streaming.flinkcourse.model.portfolio.Portfolio;
-import com.fastcampus.streaming.flinkcourse.model.stock.Stock;
-import com.fastcampus.streaming.flinkcourse.model.stock.StockTransaction;
-import com.fastcampus.streaming.flinkcourse.model.stock.StockWithCount;
+import org.example.app.model.portfolio.Portfolio;
+import org.example.app.model.stock.Stock;
+import org.example.app.model.stock.StockTransaction;
+import org.example.app.model.stock.StockWithCount;
 import org.apache.flink.connector.kafka.source.KafkaSource;
 
 import java.util.HashMap;

@@ -1,7 +1,7 @@
 package org.example.app.kafka.producer.factory;
 
 import org.example.app.kafka.generator.SampleDataGenerator;
-import org.example.app.kafka.portfolio.PortfolioSingleDataGenerator;
+import org.example.app.kafka.generator.portfolio.PortfolioSingleDataGenerator;
 import org.example.app.kafka.generator.stock.StockGroupDataGenerator;
 import org.example.app.kafka.generator.stock.StockSectorDataGenerator;
 import org.example.app.kafka.generator.stock.StockSingleDataGenerator;
