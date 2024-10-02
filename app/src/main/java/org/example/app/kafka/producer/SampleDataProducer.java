@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class SampleDataProducer {
 
-    public testKafka() throws Exception {
+    public void testKafka() throws Exception {
  
 
         // Get the generator type from the command-line arguments

@@ -7,12 +7,12 @@ import org.example.app.kafka.producer.SampleDataProducer;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("hello");
+        //System.out.println("hello");
 
         SampleDataProducer test = new SampleDataProducer(); 
 
         try{
-            test.testKafka()
+            test.testKafka();
         }catch(Exception e){
             System.out.println(e.getMessage());
         }
