@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.chapter2.serde;
+package org.example.app.source.serde;
 
 import org.apache.flink.api.common.serialization.SerializationSchema;
 import org.apache.flink.api.java.tuple.Tuple2;

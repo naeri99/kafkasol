@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.chapter2.encoder;
+package org.example.app.source.encoder;
 
 import org.apache.flink.api.common.serialization.Encoder;
 import org.apache.flink.api.java.tuple.Tuple2;

@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.kafka.generator;
+package org.example.app.kafka.generator;
 
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.producer.KafkaProducer;

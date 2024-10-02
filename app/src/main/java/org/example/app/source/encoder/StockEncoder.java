@@ -1,6 +1,6 @@
-package com.fastcampus.streaming.flinkcourse.chapter2.encoder;
+package org.example.app.source.encoder;
 
-import com.fastcampus.streaming.flinkcourse.model.stock.Stock;
+import org.example.app.model.stock.Stock;
 import org.apache.flink.api.common.serialization.Encoder;
 
 import java.io.IOException;

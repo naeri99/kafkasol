@@ -1,8 +1,8 @@
-package com.fastcampus.streaming.flinkcourse.chapter2;
+package org.example.app.source;
 
-import com.fastcampus.streaming.flinkcourse.chapter2.serde.StockCSVKafkaRecordDeserializationSchema;
-import com.fastcampus.streaming.flinkcourse.chapter2.serde.StockClassKafkaRecordSerializationSchema;
-import com.fastcampus.streaming.flinkcourse.model.stock.Stock;
+import org.example.app.source.serde.StockCSVKafkaRecordDeserializationSchema;
+import org.example.app.source.serde.StockClassKafkaRecordSerializationSchema;
+import org.example.app.model.stock.Stock;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.connector.base.DeliveryGuarantee;

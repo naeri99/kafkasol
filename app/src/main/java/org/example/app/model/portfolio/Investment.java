@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.model.portfolio;
+package org.example.app.model.portfolio;
 
 public class Investment {
     private String id;

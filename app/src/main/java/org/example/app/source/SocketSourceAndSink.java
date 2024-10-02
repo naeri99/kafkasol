@@ -1,7 +1,8 @@
-package com.fastcampus.streaming.flinkcourse.chapter2;
+package org.example.app.source;
 
-import com.fastcampus.streaming.flinkcourse.chapter2.function.Tokenizer;
-import com.fastcampus.streaming.flinkcourse.chapter2.serde.TokenCountSerializationSchema;
+
+import org.example.app.source.function.Tokenizer;
+import org.example.app.source.serde.TokenCountSerializationSchema;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

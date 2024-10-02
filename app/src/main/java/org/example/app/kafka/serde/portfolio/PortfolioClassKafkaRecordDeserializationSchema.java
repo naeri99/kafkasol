@@ -1,6 +1,6 @@
-package com.fastcampus.streaming.flinkcourse.kafka.serde.portfolio;
+package org.example.app.kafka.serde.portfolio;
 
-import com.fastcampus.streaming.flinkcourse.model.portfolio.Portfolio;
+import org.example.app.model.portfolio.Portfolio;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.connector.kafka.source.reader.deserializer.KafkaRecordDeserializationSchema;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;

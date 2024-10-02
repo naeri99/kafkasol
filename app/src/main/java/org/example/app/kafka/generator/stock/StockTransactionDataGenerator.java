@@ -1,6 +1,6 @@
-package com.fastcampus.streaming.flinkcourse.kafka.generator.stock;
+package org.example.app.kafka.generator.stock;
 
-import com.fastcampus.streaming.flinkcourse.model.stock.StockTransaction;
+import org.example.app.model.stock.StockTransaction;
 import org.apache.kafka.clients.producer.KafkaProducer;
 
 public class StockTransactionDataGenerator extends StockDataGenerator {

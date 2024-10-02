@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.kafka.generator;
+package org.example.app.kafka.generator;
 
 public interface SampleDataGenerator {
     void generateAndSend() throws Exception;

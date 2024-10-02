@@ -1,8 +1,8 @@
-package com.fastcampus.streaming.flinkcourse.kafka.producer;
+package org.example.app.kafka.producer;
 
-import com.fastcampus.streaming.flinkcourse.kafka.config.KafkaProperties;
-import com.fastcampus.streaming.flinkcourse.kafka.generator.SampleDataGenerator;
-import com.fastcampus.streaming.flinkcourse.kafka.producer.factory.DataGeneratorFactory;
+import org.example.app.kafka.config.KafkaProperties;
+import org.example.app.kafka.generator.SampleDataGenerator;
+import org.example.app.kafka.producer.factory.DataGeneratorFactory;
 import org.apache.kafka.clients.producer.KafkaProducer;
 
 import java.util.Properties;

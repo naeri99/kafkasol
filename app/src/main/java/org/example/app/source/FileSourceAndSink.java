@@ -1,7 +1,7 @@
-package com.fastcampus.streaming.flinkcourse.chapter2;
+package org.example.app.source;
 
-import com.fastcampus.streaming.flinkcourse.chapter2.encoder.StockEncoder;
-import com.fastcampus.streaming.flinkcourse.model.stock.Stock;
+import org.example.app.source.encoder.StockEncoder;
+import org.example.app.model.stock.Stock;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.serialization.SimpleStringEncoder;
 import org.apache.flink.configuration.MemorySize;

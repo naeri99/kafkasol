@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.chapter2.function;
+package org.example.app.source.function;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.tuple.Tuple2;

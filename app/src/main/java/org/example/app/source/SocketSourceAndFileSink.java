@@ -1,7 +1,7 @@
-package com.fastcampus.streaming.flinkcourse.chapter2;
+package org.example.app.source;
 
-import com.fastcampus.streaming.flinkcourse.chapter2.encoder.TokenCountEncoder;
-import com.fastcampus.streaming.flinkcourse.chapter2.function.Tokenizer;
+import org.example.app.source.encoder.TokenCountEncoder;
+import org.example.app.source.function.Tokenizer;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.configuration.MemorySize;
 import org.apache.flink.connector.file.sink.FileSink;

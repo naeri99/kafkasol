@@ -1,11 +1,11 @@
-package com.fastcampus.streaming.flinkcourse.kafka.producer.factory;
+package org.example.app.kafka.producer.factory;
 
-import com.fastcampus.streaming.flinkcourse.kafka.generator.SampleDataGenerator;
-import com.fastcampus.streaming.flinkcourse.kafka.generator.portfolio.PortfolioSingleDataGenerator;
-import com.fastcampus.streaming.flinkcourse.kafka.generator.stock.StockGroupDataGenerator;
-import com.fastcampus.streaming.flinkcourse.kafka.generator.stock.StockSectorDataGenerator;
-import com.fastcampus.streaming.flinkcourse.kafka.generator.stock.StockSingleDataGenerator;
-import com.fastcampus.streaming.flinkcourse.kafka.generator.stock.StockTransactionDataGenerator;
+import org.example.app.kafka.generator.SampleDataGenerator;
+import org.example.app.kafka.portfolio.PortfolioSingleDataGenerator;
+import org.example.app.kafka.generator.stock.StockGroupDataGenerator;
+import org.example.app.kafka.generator.stock.StockSectorDataGenerator;
+import org.example.app.kafka.generator.stock.StockSingleDataGenerator;
+import org.example.app.kafka.generator.stock.StockTransactionDataGenerator;
 import org.apache.kafka.clients.producer.KafkaProducer;
 
 public class DataGeneratorFactory {

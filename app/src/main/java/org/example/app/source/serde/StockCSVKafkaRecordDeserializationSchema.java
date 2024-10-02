@@ -1,6 +1,6 @@
-package com.fastcampus.streaming.flinkcourse.chapter2.serde;
+package org.example.app.source.serde;
 
-import com.fastcampus.streaming.flinkcourse.model.stock.Stock;
+import org.example.app.model.stock.Stock;
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.connector.kafka.source.reader.deserializer.KafkaRecordDeserializationSchema;
 import org.apache.flink.util.Collector;

@@ -1,6 +1,6 @@
-package com.fastcampus.streaming.flinkcourse.chapter2.serde;
+package org.example.app.source.serde;
 
-import com.fastcampus.streaming.flinkcourse.model.stock.Stock;
+import org.example.app.model.stock.Stock;
 import org.apache.flink.connector.kafka.sink.KafkaRecordSerializationSchema;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.core.JsonProcessingException;
 import org.apache.flink.shaded.jackson2.com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,7 +1,7 @@
-package com.fastcampus.streaming.flinkcourse.kafka.generator.portfolio;
+package org.example.app.kafka.generator.portfolio;
 
-import com.fastcampus.streaming.flinkcourse.model.portfolio.Investment;
-import com.fastcampus.streaming.flinkcourse.model.portfolio.Portfolio;
+import org.example.app.model.portfolio.Investment;
+import org.example.app.model.portfolio.Portfolio;
 import org.apache.kafka.clients.producer.KafkaProducer;
 
 import java.util.ArrayList;

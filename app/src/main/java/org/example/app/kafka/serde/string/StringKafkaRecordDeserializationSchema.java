@@ -1,4 +1,4 @@
-package com.fastcampus.streaming.flinkcourse.kafka.serde.string;
+package org.example.app.kafka.serde.string;
 
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.connector.kafka.source.reader.deserializer.KafkaRecordDeserializationSchema;
